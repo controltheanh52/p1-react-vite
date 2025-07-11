@@ -1,7 +1,13 @@
 //component = html + css + js
+//jsx: coding with HTML
+
+import './style.css';
 const MyComponent = () => {
   return (
-      <div>Control & The Anh update</div>
+    <>//fragment
+        <div>Control & The Anh update</div>
+        <div className="child">this is a child</div>
+    </>
   );
 }
 
